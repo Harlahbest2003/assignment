@@ -1,0 +1,92 @@
+
+ html,body{
+ max-width: 100%; 
+    overflow-x: hidden;  
+
+ }
+.motor{ 
+   max-width:100% ;
+    background-image: url(image/road.jfif);
+   height: 150px;
+}
+.vehicle{
+    padding: 0;    position: relative;
+    width: 100%;
+
+    height: 303px;
+    background: url("https://gotaxi.biz/asset/css_animasi/ilustrasion-scene.png" );
+    background-size: cover;
+}
+.vehicle3 {
+    position:relative;
+    top: -210px;
+    right: 1200px;
+    animation-name: vehicle3;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction:none;
+animation-fill-mode: none;
+animation-play-state: running;
+
+    
+
+}
+.vehicle2{
+    position: relative;
+    top: -100px;
+    left: -1500px;
+    animation-name: vehicle2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction:none;
+animation-fill-mode: none;
+animation-play-state: running;
+
+}
+.vehicle1{
+    position: relative;
+    left: -1000px;
+    animation-name: vehicle1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction:none;
+animation-fill-mode: none;
+animation-play-state: running;
+}
+.road{
+    position: absolute;
+    top: 300px;
+}
+@keyframes vehicle1{
+    from{
+        transform: translateX( -100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes vehicle2{
+    from{
+        transform: translateX( 100%);
+    }
+    to{
+        transform: translateX(-100%);
+    } 
+} 
+
+@keyframes vehicle3{
+    from{
+        transform: translateX( -100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
